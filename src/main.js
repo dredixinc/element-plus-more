@@ -1,6 +1,6 @@
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import './style.css'
-import CogPaginatedTable from './components/CogPaginatedTable.vue'
+import DredixPaginatedTable from './components/DredixPaginatedTable.vue'
 
-export { CogPaginatedTable }
+export { DredixPaginatedTable }
