@@ -2,12 +2,12 @@
   "name": "dredixinc-element-plus-more",
   "version": "0.0.1",
   "type": "module",
-  "main": "./dist/dev-dependencies.umd.cjs",
-  "module": "./dist/dev-dependencies.js",
+  "main": "./src/main.js",
+  "module": "./src/main.js",
   "exports": {
     ".": {
-      "import": "./dist/dev-dependencies.js",
-      "require": "./dist/dev-dependencies.umd.cjs"
+      "import": "./src/main.js",
+      "require": "./src/main.js"
     },
     "./style.css": "./dist/style.css"
   },
