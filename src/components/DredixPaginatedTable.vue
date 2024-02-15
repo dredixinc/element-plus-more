@@ -1,5 +1,5 @@
 <template>
-    <div class="cog-paginated-table">
+    <div class="dredix-paginated-table">
         <a :id="componentId" :name="componentId"></a>
         <slot name="search"></slot>
         <el-table :data="tableData.data" style="width: 100%" v-loading="loading" @sort-change="handleSortChange">
@@ -15,7 +15,7 @@
 import { defineComponent } from 'vue'
 import { scrollToElementId, getUUID } from "../helpers/functions";
 export default defineComponent({
-    name: "CogPaginatedTable",
+    name: "DredixPaginatedTable",
     props: {
         apiUrl: {
             type: String,
@@ -91,6 +91,7 @@ export default defineComponent({
         },
     },
     mounted() {
+        console.log('Mounted DredixPaginatedTable');
         this.componentId = this.getUUID();
         this.sortBy = this.defaultSort;
         this.getTableData();
