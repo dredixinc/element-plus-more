@@ -1,0 +1,31 @@
+{
+  "name": "@raldfel/dev-dependencies",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/dev-dependencies.umd.cjs",
+  "module": "./dist/dev-dependencies.js",
+  "exports": {
+    ".": {
+      "import": "./dist/dev-dependencies.js",
+      "require": "./dist/dev-dependencies.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.5.3",
+    "install": "^0.13.0",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  }
+}
