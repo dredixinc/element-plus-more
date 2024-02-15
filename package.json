@@ -1,5 +1,5 @@
 {
-  "name": "@dredixinc/element-plus-more",
+  "name": "dredixinc/element-plus-more",
   "version": "0.0.1",
   "type": "module",
   "main": "./dist/dev-dependencies.umd.cjs",
