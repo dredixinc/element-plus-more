@@ -2,17 +2,17 @@
   "name": "@dredixinc/element-plus-more",
   "version": "0.0.1",
   "type": "module",
-  "main": "./src/main.js",
+  "main": "./dist/dev-dependencies.umd.cjs",
   "module": "./dist/dev-dependencies.js",
   "exports": {
     ".": {
       "import": "./dist/dev-dependencies.js",
-      "require": "./src/main.js"
+      "require": "./dist/dev-dependencies.umd.cjs"
     },
-    "./style.css": "./src/style.css"
+    "./style.css": "./dist/style.css"
   },
   "files": [
-    "src"
+    "dist"
   ],
   "scripts": {
     "dev": "vite",
