@@ -1,5 +1,5 @@
 {
-  "name": "dredixinc-element-plus-more",
+  "name": "@dredix/element-plus-more",
   "version": "0.0.1",
   "type": "module",
   "main": "./src/main.js",
@@ -9,10 +9,11 @@
       "import": "./src/main.js",
       "require": "./src/main.js"
     },
-    "./style.css": "./dist/style.css"
+    "./style.css": "./src/style.css"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "dev": "vite",
